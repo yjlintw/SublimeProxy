@@ -1,0 +1,24 @@
+# Sublime Proxy
+
+Hey,
+
+To install, build it and put the SublimeProxy app where ever you want. However, 
+the original Sublime Text 2 app must be installed in the Applications folder.
+
+- Build it and put SublimeProxy wherever you want
+- Make sure Sublime Text 2 is in the Applications folder
+- Point Unity's External Editor setting at the Sublime Proxy app
+
+Now whenever you click on an error line in Unity it should open up to the
+correct place in Sublime Text 2! Sweet.
+
+There's a known bug where it gives the error:
+
+The document “x” could not be opened.
+SublimeProxy cannot open files in the “All files” format.
+
+I have no idea why that happens, and don't have any time to debug it. If it
+comes up just click the file again and it should open. If anyone knows why,
+fix it and send a pull request.
+
+Props to Tim Keating who got the barebones event handler setup.
