@@ -12,6 +12,8 @@
 		102B54B21747CFD600977AEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B54B11747CFD600977AEA /* main.m */; };
 		102B54B61747CFD600977AEA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 102B54B41747CFD600977AEA /* Credits.rtf */; };
 		102B54B91747CFD600977AEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 102B54B81747CFD600977AEA /* AppDelegate.m */; };
+		9DA4D3E217A991720058655C /* SublimeProxy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9DA4D3E117A991720058655C /* SublimeProxy.icns */; };
+		9DA4D3E417A992750058655C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DA4D3E317A992750058655C /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		102B54B51747CFD600977AEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		102B54B71747CFD600977AEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		102B54B81747CFD600977AEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DA4D3E117A991720058655C /* SublimeProxy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SublimeProxy.icns; sourceTree = "<group>"; };
+		9DA4D3E317A992750058655C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,11 @@
 		102B54AB1747CFD600977AEA /* SublimeProxy */ = {
 			isa = PBXGroup;
 			children = (
+				9DA4D3E117A991720058655C /* SublimeProxy.icns */,
 				102B54B71747CFD600977AEA /* AppDelegate.h */,
 				102B54B81747CFD600977AEA /* AppDelegate.m */,
 				102B54AC1747CFD600977AEA /* Supporting Files */,
+				9DA4D3E317A992750058655C /* MainMenu.xib */,
 			);
 			path = SublimeProxy;
 			sourceTree = "<group>";
@@ -152,6 +158,8 @@
 			files = (
 				102B54B01747CFD600977AEA /* InfoPlist.strings in Resources */,
 				102B54B61747CFD600977AEA /* Credits.rtf in Resources */,
+				9DA4D3E217A991720058655C /* SublimeProxy.icns in Resources */,
+				9DA4D3E417A992750058655C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

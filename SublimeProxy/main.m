@@ -3,7 +3,7 @@
 //  SublimeProxy
 //
 //  Created by Tim Keating on 5/18/13.
-//  Copyright (c) 2013 Tim Keating. All rights reserved.
+//  Modified by Allan Lavell to allow main menu .xib integration on 07/31/13.
 //
 
 #import "AppDelegate.h"
@@ -14,5 +14,5 @@ int main(int argc, char *argv[])
     
     NSApplication * application = [NSApplication sharedApplication];
     [application setDelegate:delegate];
-    [NSApp run];
+    return NSApplicationMain(argc, (const char **)argv);
 }
