@@ -2,11 +2,10 @@
 
 Hey,
 
-To install, build it and put the SublimeProxy app where ever you want. However, 
-the original Sublime Text 2 app must be installed in the Applications folder.
+To install:
 
-- Build it and put SublimeProxy wherever you want
-- Make sure Sublime Text 2 is in the Applications folder
+- Build it and put SublimeProxy.app wherever you want
+- Make sure original Sublime Text 2.app is in the Applications folder
 - Point Unity's External Editor setting at the Sublime Proxy app
 
 Now whenever you click on an error line in Unity it should open up to the
