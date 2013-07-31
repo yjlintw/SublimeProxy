@@ -13,13 +13,18 @@ Mac OSX 10.8 64-bit)
 Now whenever you click on an error line in Unity it should open up to the
 correct place in Sublime Text 2! Sweet.
 
-There's a known bug where it gives the error:
+There's a known bug where the first time you try to open a file
+it gives the error:
 
 The document “x” could not be opened.
 SublimeProxy cannot open files in the “All files” format.
 
-I have no idea why that happens, and don't have any time to debug it. If it
-comes up just click the file again and it should open. If anyone knows why,
+If that comes up just click OK and then click on the file again;
+it should open.
+
+I have no idea why that happens - seems to be something to do with Document
+Types in the info.plist. Spent a little while trying to sort it out, but
+don't have any further time. If anyone knows why,
 fix it and send a pull request.
 
 Props to Tim Keating who got the barebones event handler setup.
