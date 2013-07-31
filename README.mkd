@@ -4,7 +4,9 @@ Hey,
 
 To install:
 
-- Build it and put SublimeProxy.app wherever you want
+- Build it or use the prebuilt package found in Builds (was compiled on 
+Mac OSX 10.8 64-bit)
+- put SublimeProxy.app wherever you want
 - Make sure original Sublime Text 2.app is in the Applications folder
 - Point Unity's External Editor setting at the Sublime Proxy app
 
