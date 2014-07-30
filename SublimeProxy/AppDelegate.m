@@ -10,6 +10,14 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    self.statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    [self.statusItem setMenu:self.statusMenu];
+    [self.statusItem setHighlightMode:YES];
+    [self.statusItem setTitle:[NSString stringWithFormat:@"S"]];
+    [self.statusItem setEnabled:YES];
+    [self.statusItem setToolTip:@"IPMenulet"];
+    [self.statusItem setTarget:self];
+    
     [[NSAppleEventManager sharedAppleEventManager]
      setEventHandler:self andSelector:@selector(handleAppleEvent:withReplyEvent:)
      forEventClass:'aevt' andEventID:'odoc'];
