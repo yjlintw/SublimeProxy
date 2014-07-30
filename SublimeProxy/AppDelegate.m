@@ -39,9 +39,10 @@
     x += 1;
     
     const AEKeyword filekey  = '----';
-    NSString *filepath = [[[event descriptorForKeyword:filekey] stringValue] substringFromIndex:16];
+    NSString *filepath = [[[event descriptorForKeyword:filekey] stringValue] substringFromIndex:7];
     NSString *filepathWithLine = [NSString stringWithFormat:@"%@:%d", filepath, x];
     filepathWithLine = [filepathWithLine stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    //NSLog(@"%@",filepathWithLine);
     NSArray *arguments;
     arguments = [NSArray arrayWithObjects: filepathWithLine, nil];
     [task setArguments: arguments];
