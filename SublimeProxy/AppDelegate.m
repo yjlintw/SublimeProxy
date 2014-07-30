@@ -26,7 +26,7 @@
 - (void)handleAppleEvent:(NSAppleEventDescriptor *)event withReplyEvent:(NSAppleEventDescriptor *)replyEvent {
     NSTask *task;
     task = [[NSTask alloc] init];
-    [task setLaunchPath:@"/Applications/Sublime\ Text\ 2.app\/Contents/SharedSupport/bin/subl"];
+    [task setLaunchPath:@"/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"];
     
     NSData *eventData = [event data];
     
